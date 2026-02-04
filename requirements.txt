@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pymongo
+python-jose
+passlib[bcrypt]
+python-multipart
+requests
+beautifulsoup4
+pdfminer.six
+pandas
+openpyxl

@@ -1,0 +1,48 @@
+{
+  "South": {
+    "Karnataka": ["Bagalkot", "Ballari", "Belagavi", "Bengaluru Urban", "Bengaluru Rural", "Bidar", "Chikkamagaluru", "Chitradurga", "Dakshina Kannada", "Dharwad", "Hassan", "Hubballi-Dharwad", "Kalaburagi", "Kodagu", "Kolar", "Mandya", "Mysuru", "Raichur", "Shivamogga", "Tumakuru", "Udupi", "Uttara Kannada", "Vijayapura", "Yadgir"],
+    "Tamil Nadu": ["Chennai", "Coimbatore", "Madurai", "Salem", "Tiruchirappalli", "Tirunelveli", "Vellore"],
+    "Kerala": ["Thiruvananthapuram", "Kochi", "Kozhikode", "Thrissur", "Palakkad"],
+    "Andhra Pradesh": ["Anantapur", "Guntur", "Kurnool", "Nellore", "Visakhapatnam"],
+    "Telangana": ["Hyderabad", "Warangal", "Karimnagar", "Nizamabad"]
+  },
+
+  "West": {
+    "Maharashtra": ["Mumbai", "Pune", "Nagpur", "Nashik", "Aurangabad", "Solapur"],
+    "Gujarat": ["Ahmedabad", "Surat", "Vadodara", "Rajkot"],
+    "Rajasthan": ["Jaipur", "Jodhpur", "Udaipur", "Kota"],
+    "Goa": ["North Goa", "South Goa"]
+  },
+
+  "North": {
+    "Delhi": ["New Delhi"],
+    "Uttar Pradesh": ["Lucknow", "Kanpur", "Noida", "Ghaziabad", "Agra", "Varanasi"],
+    "Haryana": ["Gurugram", "Faridabad", "Panipat"],
+    "Punjab": ["Chandigarh", "Ludhiana", "Amritsar"],
+    "Himachal Pradesh": ["Shimla", "Kangra"],
+    "Uttarakhand": ["Dehradun", "Haridwar"]
+  },
+
+  "East": {
+    "West Bengal": ["Kolkata", "Howrah", "Durgapur", "Siliguri"],
+    "Odisha": ["Bhubaneswar", "Cuttack"],
+    "Bihar": ["Patna", "Gaya"],
+    "Jharkhand": ["Ranchi", "Jamshedpur"]
+  },
+
+  "Central": {
+    "Madhya Pradesh": ["Bhopal", "Indore", "Jabalpur", "Gwalior"],
+    "Chhattisgarh": ["Raipur", "Bilaspur"]
+  },
+
+  "North-East": {
+    "Assam": ["Guwahati", "Dibrugarh"],
+    "Meghalaya": ["Shillong"],
+    "Manipur": ["Imphal"],
+    "Tripura": ["Agartala"],
+    "Nagaland": ["Kohima"],
+    "Mizoram": ["Aizawl"],
+    "Arunachal Pradesh": ["Itanagar"],
+    "Sikkim": ["Gangtok"]
+  }
+}
