@@ -10,3 +10,5 @@ pdfminer.six
 pandas
 openpyxl
 python-dotenv
+passlib[argon2]
+argon2-cffi
