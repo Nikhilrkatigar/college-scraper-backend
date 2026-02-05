@@ -9,3 +9,4 @@ beautifulsoup4
 pdfminer.six
 pandas
 openpyxl
+python-dotenv
