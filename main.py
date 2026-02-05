@@ -13,16 +13,22 @@ load_dotenv()
 
 app = FastAPI(title="College Placement Contact Extractor")
 
-# ---- CORS CONFIG (SAFE) ----
-FRONTEND_URL = os.getenv(
-    "FRONTEND_URL",
-    "http://localhost:5173"  # fallback for local dev
-)
+# ---- CORS CONFIG (FINAL & CORRECT) ----
+FRONTEND_URL = os.getenv("FRONTEND_URL")
+
+allowed_origins = [
+    "http://localhost:3000",
+    "http://localhost:5173",
+    "https://college-scraper-frontend.vercel.app",
+]
+
+if FRONTEND_URL:
+    allowed_origins.append(FRONTEND_URL)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_URL],
-    allow_credentials=True,
+    allow_origins=allowed_origins,
+    allow_credentials=False,  # ✅ IMPORTANT FIX
     allow_methods=["*"],
     allow_headers=["*"],
 )
